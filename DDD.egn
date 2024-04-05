@@ -1,0 +1,945 @@
+{
+  "domain": {
+    "name": "default",
+    "actors": {
+      "Person": "<svg viewBox=\"0 0 24 26\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z\"/><path d=\"M0 0h24v24H0z\" fill=\"none\"/></svg>",
+      "Group": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"48\" viewBox=\"0 0 24 26\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M16.5 13c-1.2 0-3.07.34-4.5 1-1.43-.67-3.3-1-4.5-1C5.33 13 1 14.08 1 16.25V19h22v-2.75c0-2.17-4.33-3.25-6.5-3.25zm-4 4.5h-10v-1.25c0-.54 2.56-1.75 5-1.75s5 1.21 5 1.75v1.25zm9 0H14v-1.25c0-.46-.2-.86-.52-1.22.88-.3 1.96-.53 3.02-.53 2.44 0 5 1.21 5 1.75v1.25zM7.5 12c1.93 0 3.5-1.57 3.5-3.5S9.43 5 7.5 5 4 6.57 4 8.5 5.57 12 7.5 12zm0-5.5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm9 5.5c1.93 0 3.5-1.57 3.5-3.5S18.43 5 16.5 5 13 6.57 13 8.5s1.57 3.5 3.5 3.5zm0-5.5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z\"/></svg>",
+      "System": "<svg viewBox=\"0 0 24 26\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20,18c1.1,0,2-0.9,2-2V6c0-1.1-0.9-2-2-2H4C2.9,4,2,4.9,2,6v10c0,1.1,0.9,2,2,2H0v2h24v-2H20z M4,6h16v10H4V6z\"/></svg>",
+      "Dollar": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 26\"><path fill=\"none\" d=\"M0 0h24v24H0V0z\"/><path d=\"M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z\"/></svg>"
+    },
+    "workObjects": {
+      "Document": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 26\"><path fill=\"none\" d=\"M0 0h24v24H0V0z\"/><path d=\"M8 16h8v2H8zm0-4h8v2H8zm6-10H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z\"/></svg>",
+      "Folder": "<svg viewBox=\"0 0 24 26\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" d=\"M0,0h24v24H0V0z\"/><path d=\"M9.17,6l2,2H20v10L4,18V6H9.17 M10,4H4C2.9,4,2.01,4.9,2.01,6L2,18c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V8c0-1.1-0.9-2-2-2 h-8L10,4L10,4z\"/></svg>",
+      "Call": "<svg viewBox=\"0 0 24 26\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" d=\"M0,0h24v24H0V0z\"/><path d=\"M6.54,5C6.6,5.89,6.75,6.76,6.99,7.59l-1.2,1.2C5.38,7.59,5.12,6.32,5.03,5H6.54 M16.4,17.02c0.85,0.24,1.72,0.39,2.6,0.45 v1.49c-1.32-0.09-2.59-0.35-3.8-0.75L16.4,17.02 M7.5,3H4C3.45,3,3,3.45,3,4c0,9.39,7.61,17,17,17c0.55,0,1-0.45,1-1v-3.49\tc0-0.55-0.45-1-1-1c-1.24,0-2.45-0.2-3.57-0.57c-0.1-0.04-0.21-0.05-0.31-0.05c-0.26,0-0.51,0.1-0.71,0.29l-2.2,2.2 c-2.83-1.45-5.15-3.76-6.59-6.59l2.2-2.2C9.1,8.31,9.18,7.92,9.07,7.57C8.7,6.45,8.5,5.25,8.5,4C8.5,3.45,8.05,3,7.5,3L7.5,3z\"/></svg>",
+      "Email": "<svg viewBox=\"0 0 24 26\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" d=\"M0,0h24v24H0V0z\"/><path fill-opacity=\"0.9\" d=\"M12,1.95c-5.52,0-10,4.48-10,10s4.48,10,10,10h5v-2h-5c-4.34,0-8-3.66-8-8s3.66-8,8-8s8,3.66,8,8v1.43 c0,0.79-0.71,1.57-1.5,1.57S17,14.17,17,13.38v-1.43c0-2.76-2.24-5-5-5s-5,2.24-5,5s2.24,5,5,5c1.38,0,2.64-0.56,3.54-1.47 c0.65,0.89,1.77,1.47,2.96,1.47c1.97,0,3.5-1.6,3.5-3.57v-1.43C22,6.43,17.52,1.95,12,1.95z M12,14.95c-1.66,0-3-1.34-3-3 s1.34-3,3-3s3,1.34,3,3S13.66,14.95,12,14.95z\"/></svg>",
+      "Conversation": "<svg height=\"48\" viewBox=\"0 0 24 26\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"/><path d=\"M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z\"/></svg>",
+      "Info": "<svg height=\"48\" viewBox=\"0 0 24 26\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z\"/></svg>",
+      "Dollar": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 26\"><path fill=\"none\" d=\"M0 0h24v24H0V0z\"/><path d=\"M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z\"/></svg>",
+      "Receipt": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 28\"><path fill=\"none\" d=\"M0 0h24v24H0V0z\"/><path d=\"M19.5 3.5L18 2l-1.5 1.5L15 2l-1.5 1.5L12 2l-1.5 1.5L9 2 7.5 3.5 6 2 4.5 3.5 3 2v20l1.5-1.5L6 22l1.5-1.5L9 22l1.5-1.5L12 22l1.5-1.5L15 22l1.5-1.5L18 22l1.5-1.5L21 22V2l-1.5 1.5zM19 19.09H5V4.91h14v14.18zM6 15h12v2H6zm0-4h12v2H6zm0-4h12v2H6z\"/></svg>",
+      "Label": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 26\"><path fill=\"none\" d=\"M0 0h24v24H0V0z\"/><path d=\"M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16zM16 17H5V7h11l3.55 5L16 17z\"/></svg>"
+    }
+  },
+  "dst": [
+    {
+      "type": "domainStory:connection",
+      "name": "",
+      "id": "connection_5370",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "waypoints": [
+        {
+          "original": {
+            "x": 1025,
+            "y": 252
+          },
+          "x": 1025,
+          "y": 252
+        },
+        {
+          "original": {
+            "x": 1025,
+            "y": 218
+          },
+          "x": 1025,
+          "y": 218
+        }
+      ],
+      "source": "shape_5565",
+      "target": "shape_2752"
+    },
+    {
+      "type": "domainStory:connection",
+      "name": "",
+      "id": "connection_8771",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "waypoints": [
+        {
+          "original": {
+            "x": 375,
+            "y": 577
+          },
+          "x": 375,
+          "y": 577
+        },
+        {
+          "original": {
+            "x": 375,
+            "y": 598
+          },
+          "x": 375,
+          "y": 598
+        }
+      ],
+      "source": "shape_3673",
+      "target": "shape_4487"
+    },
+    {
+      "type": "domainStory:connection",
+      "name": "",
+      "id": "connection_2651",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "waypoints": [
+        {
+          "original": {
+            "x": 1248,
+            "y": 510
+          },
+          "x": 1248,
+          "y": 510
+        },
+        {
+          "original": {
+            "x": 1285,
+            "y": 510
+          },
+          "x": 1285,
+          "y": 510
+        }
+      ],
+      "source": "shape_2151",
+      "target": "shape_1236"
+    },
+    {
+      "type": "domainStory:connection",
+      "name": "",
+      "id": "connection_7085",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "waypoints": [
+        {
+          "original": {
+            "x": 1457,
+            "y": 279
+          },
+          "x": 1457,
+          "y": 279
+        },
+        {
+          "original": {
+            "x": 1505,
+            "y": 277
+          },
+          "x": 1505,
+          "y": 277
+        }
+      ],
+      "source": "shape_7940",
+      "target": "shape_1943"
+    },
+    {
+      "type": "domainStory:workObjectInfo",
+      "name": "Notificação",
+      "id": "shape_5133",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 797,
+      "y": 472
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_5132",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 587,
+      "y": 262,
+      "$descriptor": {}
+    },
+    {
+      "type": "domainStory:textAnnotation",
+      "name": "",
+      "id": "shape_2752",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 975,
+      "y": 175,
+      "text": "Altera status para Recebido",
+      "number": 43,
+      "width": 100,
+      "height": 43
+    },
+    {
+      "type": "domainStory:textAnnotation",
+      "name": "",
+      "id": "shape_4487",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 325,
+      "y": 598,
+      "text": "Altera o status para Finalizado",
+      "number": 43,
+      "width": 100,
+      "height": 43
+    },
+    {
+      "type": "domainStory:textAnnotation",
+      "name": "",
+      "id": "shape_1236",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 1285,
+      "y": 495,
+      "text": "Altera o status para Pronto",
+      "number": 43,
+      "width": 100,
+      "height": 43
+    },
+    {
+      "$type": "Element",
+      "name": "Sistema/Toten",
+      "id": "shape_0408",
+      "di": {},
+      "type": "domainStory:actorSystem",
+      "pickedColor": "black",
+      "x": 338,
+      "y": -87,
+      "$descriptor": {}
+    },
+    {
+      "type": "domainStory:textAnnotation",
+      "name": "",
+      "id": "shape_1943",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 1505,
+      "y": 261,
+      "text": "Altera o status para Em Preparação",
+      "number": 43,
+      "width": 100,
+      "height": 43
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_3673",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 337,
+      "y": 492,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_2151",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 1167,
+      "y": 472,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_4522",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 337,
+      "y": 82,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_7940",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 1378,
+      "y": 242,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Cozinha",
+      "id": "shape_4810",
+      "di": {},
+      "type": "domainStory:actorPerson",
+      "pickedColor": "black",
+      "x": 1167,
+      "y": 242,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_5565",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 987,
+      "y": 252,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Sistema/Toten",
+      "id": "shape_0629",
+      "di": {},
+      "type": "domainStory:actorSystem",
+      "pickedColor": "black",
+      "x": 18,
+      "y": 63,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Sistema",
+      "id": "shape_3606",
+      "di": {},
+      "type": "domainStory:actorSystem",
+      "pickedColor": "black",
+      "x": 797,
+      "y": 252,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Cozinha",
+      "id": "shape_3519",
+      "di": {},
+      "type": "domainStory:actorPerson",
+      "pickedColor": "black",
+      "x": 18,
+      "y": 153,
+      "$descriptor": {}
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Pagamento",
+      "id": "shape_7644",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 18,
+      "y": 413
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_1870",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 17,
+      "y": 322,
+      "$descriptor": {}
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Cadastro",
+      "id": "shape_6948",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 17,
+      "y": 242
+    },
+    {
+      "type": "domainStory:actorPerson",
+      "name": "Cliente",
+      "id": "shape_9395",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 17,
+      "y": -37
+    },
+    {
+      "type": "domainStory:workObjectFolder",
+      "name": "Cadastro",
+      "id": "shape_2619",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 587,
+      "y": 112
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Pagamento",
+      "id": "shape_2658",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 587,
+      "y": 393
+    },
+    {
+      "type": "domainStory:actorPerson",
+      "name": "Cliente",
+      "id": "shape_0985",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 337,
+      "y": 262
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "faz",
+      "id": "connection_4904",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 2,
+      "waypoints": [
+        {
+          "original": {
+            "x": 408,
+            "y": 318
+          },
+          "x": 408,
+          "y": 318
+        },
+        {
+          "original": {
+            "x": 587,
+            "y": 419
+          },
+          "x": 587,
+          "y": 419
+        }
+      ],
+      "source": "shape_0985",
+      "target": "shape_2658",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Realiza",
+      "id": "connection_2330",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 1,
+      "waypoints": [
+        {
+          "original": {
+            "x": 401,
+            "y": 283
+          },
+          "x": 401,
+          "y": 283
+        },
+        {
+          "original": {
+            "x": 587,
+            "y": 161
+          },
+          "x": 587,
+          "y": 161
+        }
+      ],
+      "source": "shape_0985",
+      "target": "shape_2619",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "No",
+      "id": "connection_2702",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 656,
+            "y": 170
+          },
+          "x": 656,
+          "y": 170
+        },
+        {
+          "original": {
+            "x": 795,
+            "y": 260
+          },
+          "x": 795,
+          "y": 260
+        }
+      ],
+      "source": "shape_2619",
+      "target": "shape_3606",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "No",
+      "id": "connection_5773",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 652,
+            "y": 415
+          },
+          "x": 652,
+          "y": 415
+        },
+        {
+          "original": {
+            "x": 795,
+            "y": 330
+          },
+          "x": 795,
+          "y": 330
+        }
+      ],
+      "source": "shape_2658",
+      "target": "shape_3606",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Envia",
+      "id": "connection_6813",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 3,
+      "waypoints": [
+        {
+          "original": {
+            "x": 877,
+            "y": 290
+          },
+          "x": 877,
+          "y": 290
+        },
+        {
+          "original": {
+            "x": 987,
+            "y": 289
+          },
+          "x": 987,
+          "y": 289
+        }
+      ],
+      "source": "shape_3606",
+      "target": "shape_5565",
+      "multipleNumberAllowed": true
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Inicia preparo",
+      "id": "connection_3373",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 4,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1247,
+            "y": 280
+          },
+          "x": 1247,
+          "y": 280
+        },
+        {
+          "original": {
+            "x": 1378,
+            "y": 278
+          },
+          "x": 1378,
+          "y": 278
+        }
+      ],
+      "source": "shape_4810",
+      "target": "shape_7940",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "",
+      "id": "connection_7066",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1068,
+            "y": 290
+          },
+          "x": 1068,
+          "y": 290
+        },
+        {
+          "original": {
+            "x": 1167,
+            "y": 290
+          },
+          "x": 1167,
+          "y": 290
+        }
+      ],
+      "source": "shape_5565",
+      "target": "shape_4810"
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Consulta",
+      "id": "connection_3294",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 9,
+      "waypoints": [
+        {
+          "original": {
+            "x": 375,
+            "y": 262
+          },
+          "x": 375,
+          "y": 262
+        },
+        {
+          "original": {
+            "x": 374,
+            "y": 167
+          },
+          "x": 374,
+          "y": 167
+        }
+      ],
+      "source": "shape_0985",
+      "target": "shape_4522",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Finaliza",
+      "id": "connection_1548",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 5,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1205,
+            "y": 327
+          },
+          "x": 1205,
+          "y": 327
+        },
+        {
+          "original": {
+            "x": 1204,
+            "y": 472
+          },
+          "x": 1204,
+          "y": 472
+        }
+      ],
+      "source": "shape_4810",
+      "target": "shape_2151",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "No",
+      "id": "connection_1534",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 375,
+            "y": 82
+          },
+          "x": 375,
+          "y": 82
+        },
+        {
+          "original": {
+            "x": 375,
+            "y": -2
+          },
+          "x": 375,
+          "y": -2
+        }
+      ],
+      "source": "shape_4522",
+      "target": "shape_0408",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Seleciona itens",
+      "id": "connection_7017",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 2,
+      "waypoints": [
+        {
+          "original": {
+            "x": 417,
+            "y": 300
+          },
+          "x": 417,
+          "y": 300
+        },
+        {
+          "original": {
+            "x": 587,
+            "y": 299
+          },
+          "x": 587,
+          "y": 299
+        }
+      ],
+      "source": "shape_0985",
+      "target": "shape_5132",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "No",
+      "id": "connection_7932",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 668,
+            "y": 300
+          },
+          "x": 668,
+          "y": 300
+        },
+        {
+          "original": {
+            "x": 797,
+            "y": 300
+          },
+          "x": 797,
+          "y": 300
+        }
+      ],
+      "source": "shape_5132",
+      "target": "shape_3606",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "e faz",
+      "id": "connection_6653",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1167,
+            "y": 510
+          },
+          "x": 1167,
+          "y": 510
+        },
+        {
+          "original": {
+            "x": 877,
+            "y": 509
+          },
+          "x": 877,
+          "y": 509
+        }
+      ],
+      "source": "shape_2151",
+      "target": "shape_5133",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Ao",
+      "id": "connection_5912",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 797,
+            "y": 510
+          },
+          "x": 797,
+          "y": 510
+        },
+        {
+          "x": 535,
+          "y": 510
+        },
+        {
+          "original": {
+            "x": 386,
+            "y": 341
+          },
+          "x": 386,
+          "y": 341
+        }
+      ],
+      "source": "shape_5133",
+      "target": "shape_0985",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Retira o",
+      "id": "connection_3679",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 8,
+      "waypoints": [
+        {
+          "original": {
+            "x": 375,
+            "y": 347
+          },
+          "x": 375,
+          "y": 347
+        },
+        {
+          "original": {
+            "x": 375,
+            "y": 492
+          },
+          "x": 375,
+          "y": 492
+        }
+      ],
+      "source": "shape_0985",
+      "target": "shape_3673",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Ao",
+      "id": "connection_9328",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 835,
+            "y": 510
+          },
+          "x": 850,
+          "y": 483
+        },
+        {
+          "x": 890,
+          "y": 410
+        },
+        {
+          "original": {
+            "x": 840,
+            "y": 307
+          },
+          "x": 850,
+          "y": 327
+        }
+      ],
+      "source": "shape_5133",
+      "target": "shape_3606",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Envia",
+      "id": "connection_8440",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 7,
+      "waypoints": [
+        {
+          "original": {
+            "x": 835,
+            "y": 290
+          },
+          "x": 810,
+          "y": 337
+        },
+        {
+          "x": 770,
+          "y": 410
+        },
+        {
+          "original": {
+            "x": 820,
+            "y": 492
+          },
+          "x": 808,
+          "y": 472
+        }
+      ],
+      "source": "shape_3606",
+      "target": "shape_5133",
+      "multipleNumberAllowed": false
+    },
+    {
+      "info": ""
+    },
+    {
+      "version": "2.0.0-dev"
+    }
+  ]
+}
