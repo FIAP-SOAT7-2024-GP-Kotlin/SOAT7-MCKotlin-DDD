@@ -23,58 +23,44 @@
     {
       "type": "domainStory:connection",
       "name": "",
-      "id": "connection_5370",
+      "id": "connection_5436",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
       "waypoints": [
         {
           "original": {
-            "x": 1025,
-            "y": 252
+            "x": 1230,
+            "y": 240
           },
-          "x": 1025,
-          "y": 252
+          "x": 1230,
+          "y": 202
         },
         {
           "original": {
-            "x": 1025,
-            "y": 218
+            "x": 1230,
+            "y": 134
           },
-          "x": 1025,
-          "y": 218
+          "x": 1230,
+          "y": 176
         }
       ],
-      "source": "shape_5565",
-      "target": "shape_2752"
+      "source": "shape_7940",
+      "target": "shape_1474"
     },
     {
-      "type": "domainStory:connection",
+      "type": "domainStory:textAnnotation",
       "name": "",
-      "id": "connection_8771",
+      "id": "shape_1474",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "waypoints": [
-        {
-          "original": {
-            "x": 375,
-            "y": 577
-          },
-          "x": 375,
-          "y": 577
-        },
-        {
-          "original": {
-            "x": 375,
-            "y": 598
-          },
-          "x": 375,
-          "y": 598
-        }
-      ],
-      "source": "shape_3673",
-      "target": "shape_4487"
+      "x": 1180,
+      "y": 119,
+      "width": 99.99156545209178,
+      "height": 56.68016194331984,
+      "text": "Altera Status para Em preparação",
+      "number": 56.68016194331984
     },
     {
       "type": "domainStory:connection",
@@ -86,19 +72,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 1248,
-            "y": 510
+            "x": 1010,
+            "y": 460
           },
-          "x": 1248,
-          "y": 510
+          "x": 1053,
+          "y": 460
         },
         {
           "original": {
-            "x": 1285,
-            "y": 510
+            "x": 1140,
+            "y": 460
           },
-          "x": 1285,
-          "y": 510
+          "x": 1090,
+          "y": 460
         }
       ],
       "source": "shape_2151",
@@ -107,63 +93,256 @@
     {
       "type": "domainStory:connection",
       "name": "",
-      "id": "connection_7085",
+      "id": "connection_8771",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
       "waypoints": [
         {
           "original": {
-            "x": 1457,
-            "y": 279
+            "x": 180,
+            "y": 480
           },
-          "x": 1457,
-          "y": 279
+          "x": 180,
+          "y": 527
         },
         {
           "original": {
-            "x": 1505,
-            "y": 277
+            "x": 180,
+            "y": 583
           },
-          "x": 1505,
-          "y": 277
+          "x": 180,
+          "y": 568
         }
       ],
-      "source": "shape_7940",
-      "target": "shape_1943"
+      "source": "shape_3673",
+      "target": "shape_4487"
     },
     {
-      "type": "domainStory:workObjectInfo",
-      "name": "Notificação",
-      "id": "shape_5133",
+      "type": "domainStory:connection",
+      "name": "",
+      "id": "connection_5370",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "waypoints": [
+        {
+          "original": {
+            "x": 830,
+            "y": 240
+          },
+          "x": 830,
+          "y": 202
+        },
+        {
+          "original": {
+            "x": 830,
+            "y": 140
+          },
+          "x": 830,
+          "y": 168
+        }
+      ],
+      "source": "shape_5565",
+      "target": "shape_2752"
+    },
+    {
+      "type": "domainStory:actorPerson",
+      "name": "Cliente",
+      "id": "shape_0985",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
       "pickedColor": "black",
-      "x": 797,
-      "y": 472
+      "x": 142,
+      "y": 212
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Pagamento",
+      "id": "shape_2658",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 392,
+      "y": 343
+    },
+    {
+      "type": "domainStory:workObjectFolder",
+      "name": "Identificação",
+      "id": "shape_2619",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 392,
+      "y": 62
+    },
+    {
+      "type": "domainStory:actorPerson",
+      "name": "Cliente",
+      "id": "shape_9395",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": -58,
+      "y": -87
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Cadastro",
+      "id": "shape_6948",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": -58,
+      "y": 192
     },
     {
       "$type": "Element",
       "name": "Pedido",
-      "id": "shape_5132",
+      "id": "shape_1870",
       "di": {},
       "type": "domainStory:workObjectDocument",
       "pickedColor": "black",
-      "x": 587,
-      "y": 262,
+      "x": -58,
+      "y": 272,
+      "$descriptor": {}
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Pagamento",
+      "id": "shape_7644",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": -57,
+      "y": 363
+    },
+    {
+      "$type": "Element",
+      "name": "Cozinha",
+      "id": "shape_3519",
+      "di": {},
+      "type": "domainStory:actorPerson",
+      "pickedColor": "black",
+      "x": -57,
+      "y": 103,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Sistema",
+      "id": "shape_3606",
+      "di": {},
+      "type": "domainStory:actorSystem",
+      "pickedColor": "black",
+      "x": 602,
+      "y": 202,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Sistema/Toten",
+      "id": "shape_0629",
+      "di": {},
+      "type": "domainStory:actorSystem",
+      "pickedColor": "black",
+      "x": -57,
+      "y": 13,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_5565",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 792,
+      "y": 202,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Cozinha",
+      "id": "shape_4810",
+      "di": {},
+      "type": "domainStory:actorPerson",
+      "pickedColor": "black",
+      "x": 972,
+      "y": 202,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_7940",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 1192,
+      "y": 202,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_4522",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 142,
+      "y": 32,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_2151",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 972,
+      "y": 422,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Pedido",
+      "id": "shape_3673",
+      "di": {},
+      "type": "domainStory:workObjectDocument",
+      "pickedColor": "black",
+      "x": 142,
+      "y": 442,
+      "$descriptor": {}
+    },
+    {
+      "$type": "Element",
+      "name": "Sistema",
+      "id": "shape_0408",
+      "di": {},
+      "type": "domainStory:actorSystem",
+      "pickedColor": "black",
+      "x": 143,
+      "y": -137,
       "$descriptor": {}
     },
     {
       "type": "domainStory:textAnnotation",
       "name": "",
-      "id": "shape_2752",
+      "id": "shape_1236",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 975,
-      "y": 175,
-      "text": "Altera status para Recebido",
+      "x": 1090,
+      "y": 445,
+      "text": "Altera o status para Pronto",
       "number": 43,
       "width": 100,
       "height": 43
@@ -175,8 +354,8 @@
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 325,
-      "y": 598,
+      "x": 130,
+      "y": 568,
       "text": "Altera o status para Finalizado",
       "number": 43,
       "width": 100,
@@ -185,38 +364,13 @@
     {
       "type": "domainStory:textAnnotation",
       "name": "",
-      "id": "shape_1236",
+      "id": "shape_2752",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 1285,
-      "y": 495,
-      "text": "Altera o status para Pronto",
-      "number": 43,
-      "width": 100,
-      "height": 43
-    },
-    {
-      "$type": "Element",
-      "name": "Sistema/Toten",
-      "id": "shape_0408",
-      "di": {},
-      "type": "domainStory:actorSystem",
-      "pickedColor": "black",
-      "x": 338,
-      "y": -87,
-      "$descriptor": {}
-    },
-    {
-      "type": "domainStory:textAnnotation",
-      "name": "",
-      "id": "shape_1943",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 1505,
-      "y": 261,
-      "text": "Altera o status para Em Preparação",
+      "x": 780,
+      "y": 125,
+      "text": "Altera status para Recebido",
       "number": 43,
       "width": 100,
       "height": 43
@@ -224,178 +378,24 @@
     {
       "$type": "Element",
       "name": "Pedido",
-      "id": "shape_3673",
+      "id": "shape_5132",
       "di": {},
       "type": "domainStory:workObjectDocument",
       "pickedColor": "black",
-      "x": 337,
-      "y": 492,
+      "x": 392,
+      "y": 212,
       "$descriptor": {}
     },
     {
-      "$type": "Element",
-      "name": "Pedido",
-      "id": "shape_2151",
-      "di": {},
-      "type": "domainStory:workObjectDocument",
-      "pickedColor": "black",
-      "x": 1167,
-      "y": 472,
-      "$descriptor": {}
-    },
-    {
-      "$type": "Element",
-      "name": "Pedido",
-      "id": "shape_4522",
-      "di": {},
-      "type": "domainStory:workObjectDocument",
-      "pickedColor": "black",
-      "x": 337,
-      "y": 82,
-      "$descriptor": {}
-    },
-    {
-      "$type": "Element",
-      "name": "Pedido",
-      "id": "shape_7940",
-      "di": {},
-      "type": "domainStory:workObjectDocument",
-      "pickedColor": "black",
-      "x": 1378,
-      "y": 242,
-      "$descriptor": {}
-    },
-    {
-      "$type": "Element",
-      "name": "Cozinha",
-      "id": "shape_4810",
-      "di": {},
-      "type": "domainStory:actorPerson",
-      "pickedColor": "black",
-      "x": 1167,
-      "y": 242,
-      "$descriptor": {}
-    },
-    {
-      "$type": "Element",
-      "name": "Pedido",
-      "id": "shape_5565",
-      "di": {},
-      "type": "domainStory:workObjectDocument",
-      "pickedColor": "black",
-      "x": 987,
-      "y": 252,
-      "$descriptor": {}
-    },
-    {
-      "$type": "Element",
-      "name": "Sistema/Toten",
-      "id": "shape_0629",
-      "di": {},
-      "type": "domainStory:actorSystem",
-      "pickedColor": "black",
-      "x": 18,
-      "y": 63,
-      "$descriptor": {}
-    },
-    {
-      "$type": "Element",
-      "name": "Sistema",
-      "id": "shape_3606",
-      "di": {},
-      "type": "domainStory:actorSystem",
-      "pickedColor": "black",
-      "x": 797,
-      "y": 252,
-      "$descriptor": {}
-    },
-    {
-      "$type": "Element",
-      "name": "Cozinha",
-      "id": "shape_3519",
-      "di": {},
-      "type": "domainStory:actorPerson",
-      "pickedColor": "black",
-      "x": 18,
-      "y": 153,
-      "$descriptor": {}
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "Pagamento",
-      "id": "shape_7644",
+      "type": "domainStory:workObjectInfo",
+      "name": "Notificação",
+      "id": "shape_5133",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
       "pickedColor": "black",
-      "x": 18,
-      "y": 413
-    },
-    {
-      "$type": "Element",
-      "name": "Pedido",
-      "id": "shape_1870",
-      "di": {},
-      "type": "domainStory:workObjectDocument",
-      "pickedColor": "black",
-      "x": 17,
-      "y": 322,
-      "$descriptor": {}
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "Cadastro",
-      "id": "shape_6948",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 17,
-      "y": 242
-    },
-    {
-      "type": "domainStory:actorPerson",
-      "name": "Cliente",
-      "id": "shape_9395",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 17,
-      "y": -37
-    },
-    {
-      "type": "domainStory:workObjectFolder",
-      "name": "Cadastro",
-      "id": "shape_2619",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 587,
-      "y": 112
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "Pagamento",
-      "id": "shape_2658",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 587,
-      "y": 393
-    },
-    {
-      "type": "domainStory:actorPerson",
-      "name": "Cliente",
-      "id": "shape_0985",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 337,
-      "y": 262
+      "x": 602,
+      "y": 422
     },
     {
       "type": "domainStory:activity",
@@ -405,23 +405,23 @@
       "di": {},
       "$descriptor": {},
       "pickedColor": "black",
-      "number": 2,
+      "number": 3,
       "waypoints": [
         {
           "original": {
-            "x": 408,
-            "y": 318
+            "x": 180,
+            "y": 250
           },
-          "x": 408,
-          "y": 318
+          "x": 213,
+          "y": 268
         },
         {
           "original": {
-            "x": 587,
-            "y": 419
+            "x": 412,
+            "y": 380
           },
-          "x": 587,
-          "y": 419
+          "x": 392,
+          "y": 369
         }
       ],
       "source": "shape_0985",
@@ -440,19 +440,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 401,
-            "y": 283
+            "x": 180,
+            "y": 250
           },
-          "x": 401,
-          "y": 283
+          "x": 206,
+          "y": 233
         },
         {
           "original": {
-            "x": 587,
-            "y": 161
+            "x": 412,
+            "y": 98
           },
-          "x": 587,
-          "y": 161
+          "x": 392,
+          "y": 111
         }
       ],
       "source": "shape_0985",
@@ -471,19 +471,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 656,
-            "y": 170
+            "x": 430,
+            "y": 100
           },
-          "x": 656,
-          "y": 170
+          "x": 460,
+          "y": 121
         },
         {
           "original": {
-            "x": 795,
-            "y": 260
+            "x": 600,
+            "y": 220
           },
-          "x": 795,
-          "y": 260
+          "x": 600,
+          "y": 220
         }
       ],
       "source": "shape_2619",
@@ -502,55 +502,24 @@
       "waypoints": [
         {
           "original": {
-            "x": 652,
-            "y": 415
+            "x": 430,
+            "y": 381
           },
-          "x": 652,
-          "y": 415
+          "x": 457,
+          "y": 365
         },
         {
           "original": {
-            "x": 795,
-            "y": 330
+            "x": 600,
+            "y": 280
           },
-          "x": 795,
-          "y": 330
+          "x": 600,
+          "y": 280
         }
       ],
       "source": "shape_2658",
       "target": "shape_3606",
       "multipleNumberAllowed": false
-    },
-    {
-      "type": "domainStory:activity",
-      "name": "Envia",
-      "id": "connection_6813",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "number": 3,
-      "waypoints": [
-        {
-          "original": {
-            "x": 877,
-            "y": 290
-          },
-          "x": 877,
-          "y": 290
-        },
-        {
-          "original": {
-            "x": 987,
-            "y": 289
-          },
-          "x": 987,
-          "y": 289
-        }
-      ],
-      "source": "shape_3606",
-      "target": "shape_5565",
-      "multipleNumberAllowed": true
     },
     {
       "type": "domainStory:activity",
@@ -560,58 +529,28 @@
       "di": {},
       "$descriptor": {},
       "pickedColor": "black",
-      "number": 4,
+      "number": 5,
       "waypoints": [
         {
           "original": {
-            "x": 1247,
-            "y": 280
+            "x": 1010,
+            "y": 240
           },
-          "x": 1247,
-          "y": 280
+          "x": 1052,
+          "y": 240
         },
         {
           "original": {
-            "x": 1378,
-            "y": 278
+            "x": 1212,
+            "y": 238
           },
-          "x": 1378,
-          "y": 278
+          "x": 1192,
+          "y": 238
         }
       ],
       "source": "shape_4810",
       "target": "shape_7940",
       "multipleNumberAllowed": false
-    },
-    {
-      "type": "domainStory:activity",
-      "name": "",
-      "id": "connection_7066",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "number": null,
-      "waypoints": [
-        {
-          "original": {
-            "x": 1068,
-            "y": 290
-          },
-          "x": 1068,
-          "y": 290
-        },
-        {
-          "original": {
-            "x": 1167,
-            "y": 290
-          },
-          "x": 1167,
-          "y": 290
-        }
-      ],
-      "source": "shape_5565",
-      "target": "shape_4810"
     },
     {
       "type": "domainStory:activity",
@@ -625,19 +564,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 375,
-            "y": 262
+            "x": 180,
+            "y": 250
           },
-          "x": 375,
-          "y": 262
+          "x": 180,
+          "y": 212
         },
         {
           "original": {
-            "x": 374,
-            "y": 167
+            "x": 179,
+            "y": 52
           },
-          "x": 374,
-          "y": 167
+          "x": 179,
+          "y": 117
         }
       ],
       "source": "shape_0985",
@@ -652,23 +591,23 @@
       "di": {},
       "$descriptor": {},
       "pickedColor": "black",
-      "number": 5,
+      "number": 6,
       "waypoints": [
         {
           "original": {
-            "x": 1205,
-            "y": 327
+            "x": 1010,
+            "y": 240
           },
-          "x": 1205,
-          "y": 327
+          "x": 1010,
+          "y": 287
         },
         {
           "original": {
-            "x": 1204,
-            "y": 472
+            "x": 1009,
+            "y": 442
           },
-          "x": 1204,
-          "y": 472
+          "x": 1009,
+          "y": 422
         }
       ],
       "source": "shape_4810",
@@ -687,19 +626,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 375,
-            "y": 82
+            "x": 180,
+            "y": 70
           },
-          "x": 375,
-          "y": 82
+          "x": 180,
+          "y": 32
         },
         {
           "original": {
-            "x": 375,
-            "y": -2
+            "x": 180,
+            "y": -82
           },
-          "x": 375,
-          "y": -2
+          "x": 180,
+          "y": -52
         }
       ],
       "source": "shape_4522",
@@ -718,19 +657,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 417,
-            "y": 300
+            "x": 180,
+            "y": 250
           },
-          "x": 417,
-          "y": 300
+          "x": 222,
+          "y": 250
         },
         {
           "original": {
-            "x": 587,
-            "y": 299
+            "x": 412,
+            "y": 249
           },
-          "x": 587,
-          "y": 299
+          "x": 392,
+          "y": 249
         }
       ],
       "source": "shape_0985",
@@ -749,19 +688,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 668,
-            "y": 300
+            "x": 430,
+            "y": 250
           },
-          "x": 668,
-          "y": 300
+          "x": 473,
+          "y": 250
         },
         {
           "original": {
-            "x": 797,
-            "y": 300
+            "x": 622,
+            "y": 250
           },
-          "x": 797,
-          "y": 300
+          "x": 602,
+          "y": 250
         }
       ],
       "source": "shape_5132",
@@ -780,19 +719,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 1167,
-            "y": 510
+            "x": 1010,
+            "y": 460
           },
-          "x": 1167,
-          "y": 510
+          "x": 972,
+          "y": 460
         },
         {
           "original": {
-            "x": 877,
-            "y": 509
+            "x": 659,
+            "y": 459
           },
-          "x": 877,
-          "y": 509
+          "x": 682,
+          "y": 459
         }
       ],
       "source": "shape_2151",
@@ -811,23 +750,23 @@
       "waypoints": [
         {
           "original": {
-            "x": 797,
-            "y": 510
+            "x": 640,
+            "y": 460
           },
-          "x": 797,
-          "y": 510
+          "x": 602,
+          "y": 460
         },
         {
-          "x": 535,
-          "y": 510
+          "x": 340,
+          "y": 460
         },
         {
           "original": {
-            "x": 386,
-            "y": 341
+            "x": 170,
+            "y": 267
           },
-          "x": 386,
-          "y": 341
+          "x": 191,
+          "y": 291
         }
       ],
       "source": "shape_5133",
@@ -846,19 +785,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 375,
-            "y": 347
+            "x": 180,
+            "y": 250
           },
-          "x": 375,
-          "y": 347
+          "x": 180,
+          "y": 297
         },
         {
           "original": {
-            "x": 375,
-            "y": 492
+            "x": 180,
+            "y": 462
           },
-          "x": 375,
-          "y": 492
+          "x": 180,
+          "y": 442
         }
       ],
       "source": "shape_0985",
@@ -867,43 +806,8 @@
     },
     {
       "type": "domainStory:activity",
-      "name": "Ao",
-      "id": "connection_9328",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "number": null,
-      "waypoints": [
-        {
-          "original": {
-            "x": 835,
-            "y": 510
-          },
-          "x": 850,
-          "y": 483
-        },
-        {
-          "x": 890,
-          "y": 410
-        },
-        {
-          "original": {
-            "x": 840,
-            "y": 307
-          },
-          "x": 850,
-          "y": 327
-        }
-      ],
-      "source": "shape_5133",
-      "target": "shape_3606",
-      "multipleNumberAllowed": false
-    },
-    {
-      "type": "domainStory:activity",
       "name": "Envia",
-      "id": "connection_8440",
+      "id": "connection_2975",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -912,27 +816,116 @@
       "waypoints": [
         {
           "original": {
-            "x": 835,
-            "y": 290
+            "x": 630,
+            "y": 240
           },
-          "x": 810,
-          "y": 337
-        },
-        {
-          "x": 770,
-          "y": 410
+          "x": 630,
+          "y": 306
         },
         {
           "original": {
-            "x": 820,
-            "y": 492
+            "x": 630,
+            "y": 442
           },
-          "x": 808,
-          "y": 472
+          "x": 630,
+          "y": 422
         }
       ],
       "source": "shape_3606",
       "target": "shape_5133",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "no",
+      "id": "connection_1856",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 650,
+            "y": 460
+          },
+          "x": 650,
+          "y": 428
+        },
+        {
+          "original": {
+            "x": 650,
+            "y": 270
+          },
+          "x": 650,
+          "y": 282
+        }
+      ],
+      "source": "shape_5133",
+      "target": "shape_3606",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Consulta",
+      "id": "connection_0547",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 4,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1010,
+            "y": 240
+          },
+          "x": 972,
+          "y": 240
+        },
+        {
+          "original": {
+            "x": 830,
+            "y": 240
+          },
+          "x": 873,
+          "y": 240
+        }
+      ],
+      "source": "shape_4810",
+      "target": "shape_5565",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "No",
+      "id": "connection_4955",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 830,
+            "y": 240
+          },
+          "x": 792,
+          "y": 240
+        },
+        {
+          "original": {
+            "x": 657,
+            "y": 240
+          },
+          "x": 683,
+          "y": 240
+        }
+      ],
+      "source": "shape_5565",
+      "target": "shape_3606",
       "multipleNumberAllowed": false
     },
     {
