@@ -1,0 +1,89 @@
+@startuml myburguer-component
+skinparam componentstyle uml2
+title "MyBurger Component Graph"
+
+!include <logos/kubernetes>
+!include <logos/kong>
+!include <logos/postgresql>
+!include <logos/mongodb-icon>
+!include <aws/Compute/AWSLambda/LambdaFunction/LambdaFunction>
+
+skinparam linetype polyline
+skinparam interface {
+    FontSize 18
+}
+
+skinparam component {
+    FontSize 18
+    ArrowFontSize 22
+    ArrowFontStyle bold
+}
+
+<style>
+title {HorizontalAlignment center}
+</style>
+
+actor User as user
+
+cloud "Digital Ocean" as do {
+
+    component "<$kong>\n<<digital ocean droplet>>\nKong Api Gateway" as kong #LightBlue {
+        port "80" as p80 #Purple
+    }
+
+    package "<$kubernetes>Kubernetes" {
+
+        interface "MyBurger\nOrder SVC" as mbOrderService #Cyan
+        interface "MyBurger\nManagement SVC" as mbManagementService #Cyan
+        interface "MyBurger\nPaymemt SVC" as mbPaymentService #Cyan
+
+        component "MyBurger Order Deployment" as mbOrderDeployment #Yellow
+        component "MyBurger Management Deployment" as mbManagementDeployment #Yellow
+        component "MyBurger Payment Deployment" as mbPaymentDeployment #Yellow
+
+        component "MyBurger\nConfigMap" as mbConfig #Coral
+        component "MyBurger\nSecret" as mbSecret #Coral
+        
+        mbOrderService -l-> mbOrderDeployment
+        mbManagementService -l-> mbManagementDeployment
+        mbPaymentService -l-> mbPaymentDeployment
+
+        mbManagementService .d[hidden].> mbPaymentService
+        mbPaymentService .d[hidden].> mbOrderService
+        
+        mbOrderDeployment .d. mbConfig
+        mbOrderDeployment .d. mbSecret
+
+        mbManagementDeployment .d. mbConfig
+        mbManagementDeployment .d. mbSecret
+
+        mbPaymentDeployment .d. mbConfig
+        mbPaymentDeployment .d. mbSecret
+
+        mbConfig .r[hidden].> mbSecret
+
+        mbManagementDeployment .d[hidden].> mbPaymentDeployment
+        mbPaymentDeployment .d[hidden].> mbOrderDeployment
+    }
+
+    component "<$LambdaFunction>\n<<digital ocean>>\nMyBurger Auth LambdaFunction" as lambdaAuth #Orange    
+    
+    database "<$postgresql>\n<<digital ocean>>\nPostgreSQL SVC" as postgresDb #LightGray    
+    database "<$mongodb-icon>\n<<digital ocean>>\nMongo SVC" as mongoDb #LightGreen
+
+    lambdaAuth -d-> postgresDb
+    mbManagementDeployment -d-> postgresDb
+    mbPaymentDeployment -d-> postgresDb
+    mbOrderDeployment -d-> mongoDb
+
+}
+
+kong -r-> lambdaAuth : "/auth\n/users"
+kong -r-> mbOrderService : /orders
+kong -r-> mbManagementService : "/products\n/customer"
+kong -r-> mbPaymentService : /payment
+
+user --> p80
+
+
+@enduml
